@@ -8,6 +8,5 @@ export default Ember.View.extend({
             Ember.$('body').toggleClass('body-push-toleft');
             Ember.$('#theMenu').toggleClass('menu-open');
           });
-
   }
 });
