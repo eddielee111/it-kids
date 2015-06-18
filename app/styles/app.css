@@ -318,3 +318,97 @@ h1, h2, h3, h4, h5, h6 {
 .about {
   background-image: url(../img/about-sep.jpg);
 }
+
+/* Service Wrap */
+#servicewrap {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#servicewrap h1 {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service {
+  text-align: left;
+}
+
+.service small {
+  font-size: 12px;
+  font-weight: bold
+}
+
+.service i {
+  float: left;
+  margin-right: 15px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.service .text {
+  color: #767676
+}
+
+/* Portfolio Wrap Section */
+#portfoliowrap {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#portfoliowrap h1 {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 60px;
+}
+
+#portfoliowrap i {
+  font-size: 50px;
+}
+
+.proc {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 2px transparent;
+}
+
+#portfoliowrap .proc:hover {
+  background-color: #eee;
+  border-bottom: solid 2px #2f2f2f
+}
+
+
+/* Contact Wrap */
+#contactwrap {
+  background-color: #2f2f2f;
+  margin-top: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#contactwrap p {
+  color: #f2f2f2;
+}
+
+#contactwrap small {
+  font-size: 13px;
+}
+
+.contact {
+  background-image: url(../img/contact-sep.jpg);
+}
+
+#contactwrap label {
+  color: #f2f2f2;
+  margin-top: 10px;
+}
